@@ -5,3 +5,10 @@ node_modules
 .pip
 .cache
 .config
+.ipython
+.bash
+.oracle_jre_usage
+.viminfo
+.ssh
+.conda
+*.pyc
