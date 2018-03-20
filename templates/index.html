@@ -8,20 +8,36 @@
 </head>
 
 <body>
-  <div class="container">
-   <div class="row justify-content-md-center">
-    <div class="col">
-     
-    <form action="/upload" method="post" enctype="multipart/form-data" >
-      <span class="btn btn-default btn-file">
-        Browse <input type="file" name="image">
-      </span>
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      
+    <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Cover</h3>
+              <nav class="nav nav-masthead">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="https://github.com/gaussalgo">GitHub</a>
+                <a class="nav-link" href="https://www.gaussalgo.com/contact-us/#contact">Contact</a>
+              </nav>
+            </div>
+          </div>
 
-      <input type="submit" value="Upload your image" class="btn btn-primary">
-    </form>
+    <div class="cover-container">
+      <div class="inner cover">
+      <h1 class="cover-heading">Gauss Image Upload</h1>
+      <form class="cover" action="/upload" method="post" enctype="multipart/form-data" >
+        <div class="form-group">
+          <input class="align-center" type="file" class="form-control-file" id="browse" name="image">
+        </div>
+
+        <input type="submit" value="Upload your image" class="btn btn-primary">
+      </form>
     
     </div>
-   </div>
- </div>
+ 
+  </div>
+    </div>
+    </div>
+
 </body>
 </html>

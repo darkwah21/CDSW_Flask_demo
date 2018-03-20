@@ -6,8 +6,8 @@ node_modules
 .cache
 .config
 .ipython
-.bash
 .oracle_jre_usage
+.bash_history
 .viminfo
 .ssh
 .conda
